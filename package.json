@@ -1,0 +1,42 @@
+{
+  "name": "opengraph-scraper",
+  "description": "A scraper for open graph meta-data",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thebigredgeek/opengraph-scraper",
+  "author": {
+    "name": "Andrew E. Rhyne",
+    "email": "rhyneandrew@gmail.com",
+    "url": "http://www.thebigredgeek.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebigredgeek/opengraph-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thebigredgeek/opengraph-scraper/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thebigredgeek/opengraph-scraper/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/opengraph-scraper",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "q": "~0.9.7",
+    "jsdom": "~0.8.6"
+  }
+}
